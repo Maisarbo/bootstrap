@@ -5,6 +5,7 @@ footer {
     color: black;
     height: 100px;
     padding: 10px;
+    text-align: center;
 }
 
 footer {
@@ -14,6 +15,7 @@ footer {
 .nav-link{
     color: black;
 
+
 }
 
 p {
@@ -21,8 +23,9 @@ p {
 }
 
 img {
-    width: 100%;
+    width: 75%;
     height: auto;
+    margin: 0;
 }
 
 #logo {
@@ -52,12 +55,14 @@ img {
 
 .btn-primary {
     background-color: black;
+    font-size: .75rem;
+
 }
 .btf{
     margin-top: 25px;
 }
 .btd{
-    margin-top: 45px;
+    margin-top: 0px;
 }
 
 .btn-primary:hover {
@@ -66,14 +71,13 @@ img {
 
 
 .card {
-    float: left;
-    margin: 15px;
-    height: 350px;
-    width: 350px;
-    padding: 40px;
+    margin: 15px 100px 150px 100px;
+    height: 200px;
+    width: 200px;
 }
 .btn-success{
     background-color: black;
+    font-size: 1rem;
 }
 
 
@@ -81,6 +85,11 @@ img {
     padding: 40px;
     margin: 0;
     border: 0;
+    position: relative;
+    top: 15px;
+    right: 20px;
+    width: 250px;
+    font-size: 10px;
 }
 .sap {
     padding: 25px;
@@ -91,4 +100,118 @@ img {
     margin: 0;
     border: 0;
 
+}
+.form-control {
+    margin-top: 20px;
+}
+
+textarea.form-control {
+    margin-bottom: 20px;
+}
+
+.justify-content-end {
+    justify-content: space-between !important;
+    padding: 0 40px 0 40px;
+    background-color: rgba(38, 38, 114, 0.688);
+  }
+a.nav-link {
+    font-size: 15px;
+    padding: 10px 0 10px 0;
+}
+
+.sonos {
+    font-size: 12px;
+}
+
+@media screen and (min-width: 770px){
+
+    
+    .justify-content-end {
+        justify-content: flex-end !important;
+        background-color: rgba(38, 38, 114, 0.688);
+      }
+    a.nav-link {
+        font-size: 15px;
+        padding: 10px;
+     
+    }
+    header,
+    footer {
+    background-color: rgb(38, 38, 114);
+    color: black;
+    height: 100px;
+    padding: 10px;
+    text-align: left;
+}
+
+.img-fluid {
+    height:auto ;
+    width: 65%;
+}
+.card {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 15px;
+    padding: 40px;
+}
+div.card-body {
+    font-size: 10px;
+    height: 70px;
+    width: 250px;
+    position: relative;
+    top: 50px;
+    right: 60px;
+  }
+  .btn-primary {
+    margin-top: 0;
+  }
+  .be{
+    position:relative ;
+    top: 15px;
+  }
+  .bi {
+    position: relative;
+    top: 11px;
+  }
+  div.coo {
+    margin: 0 0 0 10%;
+  }
+   
+  .sonos {
+    font-size: 15px;
+}
+}
+
+@media screen and (min-width: 1220px){
+
+   
+    .card {
+        float: left;
+        margin: 15px 50px 15px 15px;
+        height: 300px;
+        width: 300px;
+        padding: 40px;
+    }
+    div.card-body {
+        font-size: 15px;
+        height: 70px;
+        width: 350px;
+        position: relative;
+        top: 100px;
+        right: 60px;
+      }
+
+      a.btn-primary {
+        font-size: 16px;
+      }
+
+      div.coo {
+        margin: 0 0 0 6%;
+      }
+
+      .sonos {
+        font-size: 18px;
+    }
+     
 }
